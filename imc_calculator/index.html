@@ -3,9 +3,40 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>BMI calculation</title>
+    <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
-    
+    <main class="main">
+        <section class="info">
+            <h1>BMI calculation</h1>
+            <p> BMI stands for Body Mass Index. It is a measure used to assess whether a person falls within ranges considered healthy in terms of weight relative to height. The calculation of BMI is done by dividing weight (in kilograms) by the square of height (in meters). The mathematical formula for BMI is as follows:
+            BMI = weight / (height * height)
+            </p>
+            <ul>
+                <li>BMI results are generally categorized as follows:</li>
+                <li>Underweight: BMI less than 18.5</li>
+                <li>Normal weight: BMI between 18.5 and 24.9</li>
+                <li>Overweight: BMI between 25 and 29.9</li>
+                <li>Obesity grade I: BMI between 30 and 34.9</li>
+                <li>Obesity grade II: BMI between 35 and 39.9</li>
+                <li>Obesity grade III: BMI equal to or greater than 40</li>
+            </ul>
+        </section>
+
+        <section class="calculator">
+            <h1>Calculate your BMI</h1>
+            <form action="">
+                <label for="weight">Weight</label>
+                <input type="number" id="weight">
+
+                <label for="height">Height</label>
+                <input type="number" id="height">
+
+                <button>calculate</button>
+            </form>
+            <span id="result"></span>
+        </section>
+    </main>
 </body>
 </html>
