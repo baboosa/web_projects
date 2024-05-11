@@ -1,4 +1,4 @@
-# Agenda Project - README
+# Contact book - README
 
 ## Description
 
