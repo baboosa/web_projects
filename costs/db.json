@@ -1,0 +1,68 @@
+{
+  "projects": [
+    {
+      "id": "a6fd",
+      "name": "Leme",
+      "budget": "10000",
+      "category": {
+        "id": "3",
+        "name": "Design"
+      },
+      "cost": 10000,
+      "services": [
+        {
+          "name": "Leme design",
+          "cost": "1000",
+          "description": "Desing do Leme",
+          "id": "55b1dfe1-499d-4467-b273-10c1a466e75b"
+        },
+        {
+          "name": "Desing figma",
+          "cost": "9000",
+          "description": "Desgin do figma",
+          "id": "af3bacb7-bc27-40aa-9b93-05ecadc5c4ab"
+        }
+      ]
+    },
+    {
+      "id": "4140",
+      "category": {
+        "id": "2",
+        "name": "Development"
+      },
+      "name": "Navega",
+      "budget": "2000",
+      "cost": 0,
+      "services": []
+    },
+    {
+      "id": "b655",
+      "name": "BMW",
+      "budget": "24000",
+      "category": {
+        "id": "4",
+        "name": "Planning"
+      },
+      "cost": 0,
+      "services": []
+    }
+  ],
+  "categories": [
+    {
+      "id": "1",
+      "name": "Infra"
+    },
+    {
+      "id": "2",
+      "name": "Development"
+    },
+    {
+      "id": "3",
+      "name": "Design"
+    },
+    {
+      "id": "4",
+      "name": "Planning"
+    }
+  ]
+}
